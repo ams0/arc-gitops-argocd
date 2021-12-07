@@ -28,7 +28,7 @@ spec:
     server: https://kubernetes.default.svc
   project: infra
   source:
-    path: apps
+    path: argocd
     targetRevision: HEAD
     directory:
       recurse: true
